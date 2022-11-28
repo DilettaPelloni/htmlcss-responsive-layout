@@ -46,7 +46,7 @@ header .container {
     margin: var(--main-space) 0;
     color: #5a6e7f;
     font-weight: bold;
-    line-height: 1.5em;
+
 }
 
 #intro .card-box .card .img-box {
@@ -63,8 +63,46 @@ header .container {
 }
 
 /* PLANNING */
-#planning .col:first-child {
-    margin-bottom: var(--main-space);
+#planning {
+    padding: var(--main-space) 0;
+    color: white;
+}
+
+#planning .col {
+    margin: var(--main-space) 0;
+}
+
+#planning .col h2{
+    margin-top: var(--double-space);
+}
+
+#planning .col p{
+    margin-top: var(--main-space);
+}
+
+#planning .col.col-bg{
+    padding: var(--main-space);
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#planning .col.col-bg h3 {
+    margin-top: var(--half-space);
+}
+
+#planning .col.col-bg p {
+    margin-top: var(--half-space);
+    font-style: italic;
+}
+
+#planning .col.col-bg a{
+    margin-top: var(--half-space);
+
+    padding: 1em;
+    line-height: 1em;
+    border-radius: 50%;
 }
 
 /* TESTIMONIALS */

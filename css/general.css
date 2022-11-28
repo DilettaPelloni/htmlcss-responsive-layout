@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-/* FONT */
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
 /* COLORI */
 :root {
     --primary-color: #0084fd;
@@ -17,7 +12,9 @@
     --secondary-color: #9792e4;
     --footer-color: #333333;
 
-    --main-space: 2rem
+    --main-space: 2rem;
+    --half-space: 1rem;
+    --double-space: 4rem;
 }
 
 /* UTILITY */
@@ -39,9 +36,21 @@ img {
     padding: 0 2rem;
 }
 
-/* TITOLI */
+/* TESTO */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
 h3 {
     font-size: 1.4em;
+}
+
+p {
+    line-height: 1.6em;
 }
 
 /* BOTTONI */
@@ -63,6 +72,13 @@ h3 {
 .btn.blue-btn {
     background-color: var(--primary-color);
     color: white;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.btn.purple-btn {
+    background-color: var(--secondary-color);
+    color: black;
     font-weight: bold;
     letter-spacing: 0.2rem;
 }
