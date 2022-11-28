@@ -26,6 +26,10 @@
     padding: 0.5rem;
 }
 
+img {
+    max-width: 100%;
+}
+
 .flex {
     display: flex;
 }
