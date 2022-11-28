@@ -39,6 +39,36 @@ img {
     padding: 0 2rem;
 }
 
+/* TITOLI */
+h3 {
+    font-size: 1.4em;
+}
+
+/* BOTTONI */
+
+.btn {
+    padding: 0.5em var(--main-space);
+    display: inline-block;
+
+    text-decoration: none;
+
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.btn.blue-btn {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+
+
 /* SECTIONS */
 section {
     padding: var(--main-space) 0;

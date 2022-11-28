@@ -20,17 +20,46 @@ header .container {
 /* ***** MAIN ***** */
 
 /* INTRO */
-#intro {
-    background-color: saddlebrown;
-}
-
 #intro .card-box {
     flex-wrap: wrap;
 }
 
-#intro .card-box  .card {
+#intro .card-box .card {
     width: 100%;
     margin-bottom: var(--main-space);
+    padding: 0 var(--main-space);
+
+    background-color: var(--primary-color-light);
+    border-radius: 20px;
+}
+
+#intro .card-box .card:not(:first-child) {
+    text-align: center;
+}
+
+#intro .card-box .card h3 {
+    margin-top: var(--main-space);
+    color: var(--primary-color);
+}
+
+#intro .card-box .card p {
+    margin: var(--main-space) 0;
+    color: #5a6e7f;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+#intro .card-box .card .img-box {
+    margin-top: var(--main-space);
+}
+
+#intro .card-box .card img {
+    display: block;
+}
+
+#intro .card-box .card .icon-head {
+    margin-top: var(--main-space);
+    color: var(--primary-color);
 }
 
 /* PLANNING */
