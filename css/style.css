@@ -108,12 +108,46 @@ header .container {
 /* TESTIMONIALS */
 #testimonials .container > * {
     margin-bottom: var(--main-space);
+    text-align: center;
+}
+
+#testimonials h2 {
+    color: var(--secondary-color);
+}
+
+#testimonials p {
+    margin-top: var(--main-space);
+    font-size: 1.2em;
 }
 
 #testimonials .card {
+    padding: var(--main-space) var(--half-space);
     background-color: var(--secondary-color);
-    padding: var(--main-space) 0;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
 }
+
+#testimonials .card .img-box {
+    width: 100%;
+}
+
+#testimonials .card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#testimonials .card p {
+    margin-top: var(--half-space);
+}
+
+#testimonials .card h3 {
+    margin-top: var(--main-space);
+    text-transform:uppercase;
+}
+
 
 /* BENEFITS */
 #benefits .card,
