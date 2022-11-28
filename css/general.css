@@ -5,3 +5,43 @@
     box-sizing: border-box;
 }
 
+/* FONT */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* COLORI */
+:root {
+    --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
+    --secondary-color: #9792e4;
+    --footer-color: #333333;
+
+    --main-space: 2rem
+}
+
+/* UTILITY */
+.box-debug {
+    background-color: darkgoldenrod;
+    padding: 0.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+/* SECTIONS */
+section {
+    padding: var(--main-space) 0;
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color);
+}
+
+

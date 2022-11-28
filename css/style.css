@@ -1,0 +1,60 @@
+/* ***** HEADER ***** */
+header {
+    background-color: var(--primary-color);
+}
+
+
+header .container {
+    justify-content: space-between;
+}
+
+/* ***** MAIN ***** */
+
+/* INTRO */
+#intro {
+    background-color: saddlebrown;
+}
+
+#intro .card-box {
+    flex-wrap: wrap;
+}
+
+#intro .card-box  .card {
+    width: 100%;
+    margin-bottom: var(--main-space);
+}
+
+/* PLANNING */
+#planning .col:first-child {
+    margin-bottom: var(--main-space);
+}
+
+/* TESTIMONIALS */
+#testimonials .container > * {
+    margin-bottom: var(--main-space);
+}
+
+#testimonials .card {
+    background-color: var(--secondary-color);
+    padding: var(--main-space) 0;
+}
+
+/* BENEFITS */
+#benefits .card,
+#benefits .container div:first-child {
+    margin-bottom: var(--main-space);
+}
+
+/* ABOUT */
+#about .container > * {
+    margin-bottom: var(--main-space);
+}
+
+/* ABOUT */
+
+
+/* ***** FOOTER ***** */
+footer {
+    background-color: var(--footer-color);
+    padding: var(--main-space) 0;
+}
