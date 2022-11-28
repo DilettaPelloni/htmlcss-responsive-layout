@@ -44,7 +44,7 @@ header .container {
 
 #intro .card-box .card p {
     margin: var(--main-space) 0;
-    color: #5a6e7f;
+    color: var(--light-font);
     font-weight: bold;
 
 }
@@ -65,7 +65,6 @@ header .container {
 /* PLANNING */
 #planning {
     padding: var(--main-space) 0;
-    color: white;
 }
 
 #planning .col {
@@ -150,14 +149,47 @@ header .container {
 
 
 /* BENEFITS */
-#benefits .card,
-#benefits .container div:first-child {
-    margin-bottom: var(--main-space);
+#benefits h2{
+    margin-top: var(--main-space);
+    text-align: center;
+}
+
+#benefits .card:first-child {
+    margin-top: var(--double-space);
+}
+
+#benefits .card {
+    margin-top: var(--main-space);
+    padding: var(--main-space);
+    background-color: white;
+    color: var(--secondary-color);
+    border-radius: 20px;
+}
+
+#benefits .card .number-head {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+}
+
+#benefits .card h3 {
+    margin-top: var(--main-space);
+}
+
+#benefits .card p:not(.number-head) {
+    margin-top: var(--main-space);
+    color: var(--light-font);
+}
+
+#benefits .card .btn {
+    margin-top: var(--main-space);
+    color: white;
 }
 
 /* ABOUT */
 #about .container > * {
     margin-bottom: var(--main-space);
+
 }
 
 /* ABOUT */

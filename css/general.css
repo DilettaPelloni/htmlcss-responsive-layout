@@ -11,6 +11,7 @@
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
     --footer-color: #333333;
+    --light-font: #5a6e7f;
 
     --main-space: 2rem;
     --half-space: 1rem;
@@ -92,6 +93,7 @@ section {
 
 .secondary-bg {
     background-color: var(--secondary-color);
+    color: white;
 }
 
 
