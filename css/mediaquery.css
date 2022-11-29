@@ -105,7 +105,25 @@
     #about .col-r .img-box {
         width: 100%;
         height: auto;
-        padding: ;
+    }
 
+    /* START */
+    #start .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    #start h2 {
+        font-size: 2.6em;
+    }
+
+    #start .golden-text {
+        font-size: 6em;
+    }
+
+    /* FOOTER */
+    footer .container {
+        max-width: 450px;
+        margin: 0 auto;
     }
 }

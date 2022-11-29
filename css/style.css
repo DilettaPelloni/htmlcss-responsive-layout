@@ -260,6 +260,7 @@ header .container {
 
 #start .container p:first-child {
     color: #d5d4f4;
+    letter-spacing: 0.1rem;
 }
 
 
