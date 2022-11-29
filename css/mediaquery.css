@@ -1,0 +1,111 @@
+@media screen and (min-width: 768px) {
+    
+    /* INTRO */
+    #intro .card-box {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        justify-content: space-between;
+    }
+
+    #intro .card-box .card {
+        width: calc((100% / 3) - var(--main-space));
+        margin-left: var(--half-space);
+        margin-right: var(--half-space);
+    }
+
+    #intro .card-box .card:first-child {
+        width: calc(((100% / 3) * 2) - var(--main-space));
+    }
+
+    #intro .card-box .card:first-child .img-box {
+        width: 60%;
+    }
+
+    /* PLANNING */
+    #planning .col h2{
+        font-size: 4em;
+    }
+
+    /* TESTIMONIALS */
+    #testimonials {
+        margin-bottom: var(--double-space);
+    }
+
+    #testimonials h2 {
+        font-size: 2.5em;
+    }
+
+    #testimonials .card {
+        display: flex;
+        text-align: left;
+    }
+
+    #testimonials .card .img-box {
+        width: 30%;
+        margin-right: var(--main-space);
+    }
+
+    #testimonials .card .text-box {
+        width: 70%;
+    }
+
+    #testimonials .card h3 {
+        margin-top: var(--half-space);
+    }
+
+     /* BENEFITS */
+     #benefits h2 {
+        font-size: 3em;
+        margin-bottom: var(--main-space);
+    }
+
+    #benefits .card-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+
+    #benefits .card-box .card {
+        width: calc(50% - var(--main-space));
+        margin-left: var(--half-space);
+        margin-right: var(--half-space);
+    }
+
+    #benefits .card .number-head {
+        font-size: 4em;
+    }
+
+    #benefits .card h3,
+    #benefits .card p:not(.number-head) {
+        margin-top: var(--half-space);
+    }
+
+    /* BENEFITS */
+    #about .container {
+        display: flex;
+    }
+
+    #about .big-title {
+        font-size: 4em;
+    }
+
+    #about .col-l {
+        padding: 0 var(--main-space);
+        width: 60%;
+    }
+
+    #about .col-r {
+        padding: 0 var(--main-space);
+        width: 40%;
+    }
+
+    #about .col-r .img-box {
+        width: 100%;
+        height: auto;
+        padding: ;
+
+    }
+}
