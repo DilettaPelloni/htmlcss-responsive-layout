@@ -54,6 +54,21 @@ p {
     line-height: 1.9em;
 }
 
+* > a {
+    color: inherit;
+}
+
+.golden-text {
+    font-size: 4em;
+    color: #fdc15f;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.small-text {
+    font-size: 0.9em;
+}
+
 /* BOTTONI */
 
 .btn {
@@ -84,7 +99,12 @@ p {
     letter-spacing: 0.2rem;
 }
 
-
+.btn.white-btn {
+    color: var(--secondary-color);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    padding: 1.5rem var(--double-space);
+}
 
 /* SECTIONS */
 section {

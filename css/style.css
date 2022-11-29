@@ -242,12 +242,41 @@ header .container {
     margin-right: 0.5em;
 }
 
+/* START */
+#start {
+    text-align: center;
+}
 
+#start p,
+#start h2,
+#start .btn {
+    margin-top: var(--main-space);
+}
+
+#start .small-text {
+    margin-bottom: var(--main-space);
+}
+
+#start .container p:first-child {
+    color: #d5d4f4;
+}
 
 
 
 /* ***** FOOTER ***** */
 footer {
-    background-color: var(--footer-color);
     padding: var(--main-space) 0;
+    background-color: var(--footer-color);
+    color: white;
+    text-align: center;
+}
+
+footer p:last-child{
+    margin-top: var(--main-space);
+
+}
+
+footer a{
+    color: var(--secondary-color);
+
 }
