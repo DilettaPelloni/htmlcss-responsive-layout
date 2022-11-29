@@ -6,6 +6,8 @@ header {
     position: sticky;
     top: 0;
     z-index: 30;
+
+    color: white;
 }
 
 
@@ -14,11 +16,33 @@ header .container {
     align-items: center;
 }
 
-.menu {
+header .menu-btn {
     border: none;
     background-color: transparent;
     padding: 0.5rem;
     color: white;
+}
+
+header nav {
+    display: none; 
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    list-style: none;
+}
+
+header nav ul a{
+    padding: var(--main-space) 0;
+    text-decoration: none;
+    margin-left: var(--main-space);
+}
+
+header nav ul .btn {
+    padding: 0.5em 1em;
 }
 
 /* ***** MAIN ***** */

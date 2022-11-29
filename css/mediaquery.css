@@ -1,3 +1,4 @@
+/* TABLET */
 @media screen and (min-width: 768px) {
     
     /* INTRO */
@@ -26,6 +27,15 @@
         font-size: 4em;
     }
 
+    #planning .img-box {
+        width: 100%;
+    }
+
+    #planning .col-bg .img-box {
+        width: 70%;
+        margin: 0 auto;
+    }
+
     /* TESTIMONIALS */
     #testimonials {
         margin-bottom: var(--double-space);
@@ -37,6 +47,7 @@
 
     #testimonials .card {
         display: flex;
+        align-items: center;
         text-align: left;
     }
 
@@ -126,4 +137,100 @@
         max-width: 450px;
         margin: 0 auto;
     }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* HEADER */
+    header .menu-btn {
+        display: none;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    /* INTRO */
+    #intro .card-box .card:first-child {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #intro .card-box .card:first-child .text-box {
+        width: 50%;
+    }
+
+    #intro .card-box .card:first-child .img-box {
+        width: 50%;
+        padding-left: var(--main-space);
+        padding-right: var(--double-space);
+    }
+
+    #intro .card-box .card:first-child .btn {
+        margin-bottom: var(--double-space);
+    }
+
+    /* PLANNING */
+    #planning .container {
+        max-width: 900px;
+    }
+
+    #planning .row {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #planning .col {
+        width: 50%;
+        margin-top: var(--double-space);
+    }
+
+    #planning .col:first-child {
+        margin-right: var(--double-space);
+    }
+
+    #planning .col h2 {
+        font-size: 1.8em;
+    }
+
+    #planning .col-bg .img-box {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* TESTIMONIALS */
+    #testimonials .card .img-box {
+        width: 20%;
+    }
+
+    #testimonials .card .text-box {
+        width: 80%;
+    }
+
+    /* BENEFITS */
+    #benefits .card-box .card {
+        width: calc((100% / 3) - var(--main-space));
+    }
+
+    /* ABOUT */
+    #about .col-l {
+        width: 70%;
+    }
+
+    #about .col-r {
+        width: 30%;
+    }
+
+    #about p {
+        line-height: 2.2em;
+        font-size: 1.2em;
+    }
+
+
 }
