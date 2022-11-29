@@ -272,7 +272,7 @@ footer {
 }
 
 footer p:last-child{
-    margin-top: var(--main-space);
+    margin-top: var(--double-space);
 
 }
 
