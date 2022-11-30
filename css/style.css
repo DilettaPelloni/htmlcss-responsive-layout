@@ -93,6 +93,7 @@ header nav ul .btn {
 /* PLANNING */
 #planning {
     padding: var(--main-space) 0;
+    scroll-margin-top:70px;
 }
 
 #planning .col {
@@ -133,6 +134,10 @@ header nav ul .btn {
 }
 
 /* TESTIMONIALS */
+#testimonials {
+    scroll-margin-top: 70px;
+}
+
 #testimonials .container > * {
     margin-bottom: var(--main-space);
     text-align: center;
@@ -177,6 +182,10 @@ header nav ul .btn {
 
 
 /* BENEFITS */
+#benefits {
+    scroll-margin-top: 70px;
+}
+
 #benefits h2{
     margin-top: var(--main-space);
     margin-bottom: var(--double-space);
@@ -215,6 +224,8 @@ header nav ul .btn {
 /* ABOUT */
 #about {
     padding-top: var(--double-space);
+    scroll-margin-top: 70px;
+
 }
 #about .col-l,
 #about .col-r {
@@ -270,6 +281,7 @@ header nav ul .btn {
 /* START */
 #start {
     text-align: center;
+    scroll-margin-top: 70px;
 }
 
 #start p,

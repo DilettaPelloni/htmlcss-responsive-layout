@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* SMOOTH SCROLLING */
+html {
+    scroll-behavior: smooth;
+}
+
 /* COLORI */
 :root {
     --primary-color: #0084fd;
